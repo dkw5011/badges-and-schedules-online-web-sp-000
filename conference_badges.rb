@@ -10,4 +10,7 @@ def assign_rooms(list)
   list.map.with_index {|speaker,index| "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"}
 end
 
+def printer
+  
+
 
