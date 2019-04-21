@@ -10,7 +10,6 @@ def assign_rooms(list)
   counter = 1
   list.map {|speaker| "Hello, #{speaker}! You'll be assigned to room #{counter}!"}
     counter+=1
-  end
 end
 
 
