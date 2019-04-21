@@ -10,8 +10,8 @@ def assign_rooms(list)
   list.map.with_index {|speaker,index| "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"}
 end
 
-def printer
-  batch_badge_creator(attendees)
+def printer(attendees)
+  batch_badge_creator
   assign_rooms.each {|list| puts list}
 end
 
