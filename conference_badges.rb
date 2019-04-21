@@ -12,6 +12,6 @@ end
 
 def printer
   batch_badge_creator
-  assign_rooms.each do 
+  assign_rooms.each {|list|
 
 
